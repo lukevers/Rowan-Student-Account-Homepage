@@ -179,4 +179,9 @@ a.back {
 	left: 0;
 	text-shadow: none;
 	color: #FFF;
+	padding: 10px;
+}
+
+a.back:hover {
+	color: #000;
 }

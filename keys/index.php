@@ -1,6 +1,6 @@
 <?php require('../header.php'); ?>
 	
-    <a href="../" class="back">BACK</a>
+    <a href="../" class="back">&larr;</a>
 	
     <a href="#gpg">GPG</a>
     
