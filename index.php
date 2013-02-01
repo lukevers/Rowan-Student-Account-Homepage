@@ -12,12 +12,12 @@
             <div class="desc">
             	OH HELLO! LOOKS LIKE YOU'VE FOUND MY ROWAN PAGE. 
                 I PROBABLY WON'T UPDATE THIS MUCH, SO VISIT ANY
-                OF THE FOLLOWING LINKS!
+                OF THE FOLLOWING LINKS:
             </div>
             <a href="http://lukevers.com/" class="button">WEBSITE</a>
             <a href="https://github.com/lukevers" class="button">GITHUB</a>
-            <a href="" class="button">Button3</a>
-            <a href="" class="button">Button4</a>
+            <a href="mailto:me@lukevers.com" class="button">EMAIL</a>
+            <a href="https://maryland.projectmeshnet.org" class="button">MESHNET</a>
 		</div>
 	</body>
 </html>
