@@ -12,7 +12,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover, a.back:hover {
 	color: #000;
 	text-shadow: 2px 2px 0px #FFF;
 }
@@ -177,10 +177,5 @@ a.back {
 	position: absolute;
 	top: 0;
 	left: 10;
-	text-shadow: none;
 	color: #FFF;
-}
-
-a.back:hover {
-	color: #000;
 }
