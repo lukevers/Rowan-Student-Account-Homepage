@@ -5,9 +5,7 @@
     <div id="gpg">
     	<div class="key">
         	<textarea class="key_holder">
-            	<?php
-					$gpg = file_get_contents('gpg');
-				?>
+            	<?php echo file_get_contents('gpg'); ?>
             </textarea>
         </div>
     </div>
