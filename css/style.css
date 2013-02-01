@@ -18,6 +18,12 @@ a:hover {
 }
 
 hr {
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	border: none;
+	background-color: #FFF;
+	height: 1px;
 	
 }
 
