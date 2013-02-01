@@ -31,5 +31,10 @@
                 </form>
             </div>
         </div>
+        <div id="thanks">
+        	<div class="thanks">
+            	THANKS FOR THE EMAIL!<a href="" class="exit">(CLOSE)</a>
+            </div>
+        </div>
 	</body>
 </html>
