@@ -22,7 +22,13 @@
 		</div>
         <div id="email">
         	<div class="mail">
-            	EMAIL
+            	SEND ME AN EMAIL <a href="" class="exit">(CLOSE)</a>
+                <form method="POST" action="email.php" >
+					<input type="email" name="email" placeholder="Email" class="eform" autocomplete="on" autofocus/>
+                    <input type="text" name="subject" placeholder="Subject" class="eform"/>
+                    <textarea class="eform" placeholder="Body" rows="10"></textarea>
+					<input type="submit" value="Submit" class="eform"/>
+                </form>
             </div>
         </div>
 	</body>

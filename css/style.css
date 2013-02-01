@@ -24,7 +24,6 @@ hr {
 	border: none;
 	background-color: #FFF;
 	height: 1px;
-	
 }
 
 /*
@@ -128,4 +127,29 @@ hr {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+}
+
+a.exit {
+	color: #999;
+	position: absolute;
+	right: 25%;
+}
+
+a.exit:hover {
+	color: #CCC;
+}
+
+.eform {
+	display: block;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	width: 100%;
+	padding: 10px;
+	max-width: 100% !important;
+	min-width: 100% !important;
+	margin-top: 1px;
+}
+
+form {
+	margin: 0;
 }
