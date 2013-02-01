@@ -172,3 +172,11 @@ form {
 	padding: 10px;
 	height: 400px;
 }
+
+a.back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-shadow: none;
+	color: #FFF;
+}
