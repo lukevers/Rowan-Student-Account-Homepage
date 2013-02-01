@@ -176,10 +176,9 @@ form {
 a.back {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 10;
 	text-shadow: none;
 	color: #FFF;
-	padding: 10px;
 }
 
 a.back:hover {
