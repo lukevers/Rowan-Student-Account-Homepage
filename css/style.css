@@ -29,6 +29,29 @@ hr {
 
 /*
 ==============================
+		KEYFRAMES
+==============================
+*/
+@-webkit-keyframes fade {
+	from { opacity: 0; }
+	50% { opacity: .5; }
+	to { opacity: 1; }
+}
+
+@-moz-keyframes fade {
+	from { opacity: 0; }
+	50% { opacity: .5; }
+	to { opacity: 1; }
+}
+
+@keyframes fade {
+	from { opacity: 0; }
+	50% { opacity: .5; }
+	to { opacity: 1; }
+}
+
+/*
+==============================
         FONTS
 ==============================
 */
@@ -45,7 +68,7 @@ hr {
 
 /*
 ==============================
-	MIDDLE
+		MIDDLE
 ==============================
 */
 
@@ -68,4 +91,41 @@ hr {
 	margin-right: auto;
 	width: 50%;
 	color: #FFF;
+}
+
+/*
+==============================
+		EMAIL
+==============================
+*/
+
+#email {
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	opacity: 0;
+}
+
+#email:target {
+	-webkit-animation: fade .2s linear;
+	-moz-animation: fade .2s linear;
+	animation: fade 1s linear;
+	display: block;
+	opacity: 1;
+}
+
+.mail {
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 50%;
+	padding: 10px 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 }

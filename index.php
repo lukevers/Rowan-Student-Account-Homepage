@@ -20,5 +20,10 @@
             <a href="#email">EMAIL</a> -
             <a href="https://maryland.projectmeshnet.org">MESHNET</a>
 		</div>
+        <div id="email">
+        	<div class="mail">
+            	EMAIL
+            </div>
+        </div>
 	</body>
 </html>
