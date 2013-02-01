@@ -7,6 +7,20 @@ body {
 	font-size: 40px;
 }
 
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-shadow: 2px 2px 0px #FFF;
+}
+
+hr {
+	
+}
+
 /*
 ==============================
         FONTS
@@ -39,6 +53,8 @@ body {
 .center {
 	text-align: center;
 	margin-top: 50px;
+	color: #FFF;
+	text-shadow: 2px 2px 0px #999;
 }
 
 .desc {
@@ -46,5 +62,4 @@ body {
 	margin-right: auto;
 	width: 50%;
 	color: #FFF;
-	text-shadow: 2px 2px 0px #999;
 }
