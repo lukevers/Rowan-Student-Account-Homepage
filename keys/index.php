@@ -1,5 +1,5 @@
-<?php require('/header.php'); ?>
+<?php require('../header.php'); ?>
 	
+    hai
     
-    
-<?php require('footer.php'); ?>
+<?php require('../footer.php'); ?>
