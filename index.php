@@ -26,7 +26,7 @@
                 <form method="POST" action="scripts/email.php" >
 					<input type="email" name="email" placeholder="Email" class="eform" autocomplete="on" autofocus/>
                     <input type="text" name="subject" placeholder="Subject" class="eform"/>
-                    <textarea class="eform" placeholder="Body" rows="10"></textarea>
+                    <textarea class="eform" placeholder="Body" rows="10" name="body"></textarea>
 					<input type="submit" value="Submit" class="eform"/>
                 </form>
             </div>
