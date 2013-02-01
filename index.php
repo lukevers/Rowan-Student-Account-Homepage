@@ -1,14 +1,4 @@
-<!DOCTYPE>
-<html>
-	<head>
-		<title>Luke Evers</title>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<div class="center">
-			<div class="name">
-            	Luke Evers
-            </div>
+<?php require('header.php'); ?>
             <div class="desc">
             	OH HELLO! LOOKS LIKE YOU'VE FOUND MY ROWAN PAGE. 
                 I PROBABLY WON'T UPDATE THIS MUCH, SO FEEL FREE
@@ -18,6 +8,7 @@
             <a href="http://lukevers.com/">WEBSITE</a> -
             <a href="https://github.com/lukevers">GITHUB</a> -
             <a href="#email">EMAIL</a> -
+            <a href="keys/">KEYS</a> -
             <a href="https://maryland.projectmeshnet.org">MESHNET</a>
 		</div>
         <div id="email">
@@ -35,6 +26,4 @@
         	<div class="thanks">
             	THANKS FOR THE EMAIL!<a href="" class="exit">(CLOSE)</a>
             </div>
-        </div>
-	</body>
-</html>
+<?php require('footer.php'); ?>
