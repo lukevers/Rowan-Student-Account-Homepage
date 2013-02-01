@@ -117,7 +117,7 @@ hr {
 	opacity: 1;
 }
 
-.mail, .thanks {
+.mail, .thanks, .key {
 	background-color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
@@ -152,4 +152,19 @@ a.exit:hover {
 
 form {
 	margin: 0;
+}
+
+/*
+==============================
+		KEYS
+==============================
+*/
+
+.keyholder {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	width: 100%;
+	max-width: 100% !important;
+	min-width: 100% !important;
+	padding: 10px;
 }
