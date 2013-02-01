@@ -2,7 +2,8 @@
 	
     <a href="../" class="back">&larr;</a>
 	
-    <a href="#gpg">GPG</a>
+    <a href="#gpg">GPG</a> - 
+    <a href="gpg">GPG (PLAIN TEXT)</a>
     
     <div id="gpg">
     	<div class="key">
