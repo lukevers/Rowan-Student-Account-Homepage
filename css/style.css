@@ -160,7 +160,7 @@ form {
 ==============================
 */
 
-.keyholder {
+textarea.keyholder {
 	background-color: #FFF;
 	border: 1px solid #CCC;
 	width: 100%;
