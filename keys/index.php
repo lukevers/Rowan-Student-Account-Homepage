@@ -4,7 +4,7 @@
     
     <div id="gpg">
     	<div class="key">
-        	<a href="" class="exit">(CLOSE)</a>
+        	GPG<a href="" class="exit">(CLOSE)</a>
         	<textarea class="key_holder">
             	<?php echo file_get_contents('gpg'); ?>
             </textarea>
