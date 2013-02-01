@@ -118,6 +118,9 @@ hr {
 }
 
 .mail, .thanks, .key {
+	color: #000;
+	text-shadow: none;
+	text-align: left;
 	background-color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
