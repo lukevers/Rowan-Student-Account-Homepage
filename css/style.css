@@ -2,9 +2,9 @@
 
 body {
 	margin: 0;
-	font-family: Helvetica;
+	font-family: Blanch;
 	background-color: #6CC;
-	font-size: 12px;
+	font-size: 40px;
 }
 
 /*
@@ -14,8 +14,13 @@ body {
 */
 
 @font-face {
+	font-family: BlanchInline;
+	src: url('../font/BLANCH_CAPS_INLINE.otf');
+}
+
+@font-face {
 	font-family: Blanch;
-	src: url(../font/BLANCH_CAPS_INLINE.otf)
+	src: url('../font/BLANCH_CAPS.otf');
 }
 
 /*
@@ -24,11 +29,22 @@ body {
 ==============================
 */
 
-.center {
-	text-align: center;
-	margin-top: 50px;
-	font-family: Blanch;
+.name {
+	font-family: BlanchInline;
 	font-size: 200px;
 	color: #FFF;
 	text-shadow: 4px 4px 0px #999;
+}
+
+.center {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.desc {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	color: #FFF;
+	text-shadow: 2px 2px 0px #999;
 }
