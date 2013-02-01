@@ -1,5 +1,7 @@
 <?php require('../header.php'); ?>
 	
+    <a href="../" class="exit">BACK</a>
+	
     <a href="#gpg">GPG</a>
     
     <div id="gpg">
